@@ -1,9 +1,10 @@
 {
   "name": "react-spa-heroes-vite",
+  "homepage": "https://Felipe-Navas.github.io/react-spa-heroes-vite",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
