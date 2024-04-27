@@ -1,12 +1,22 @@
 {
   "name": "react-spa-heroes-vite",
   "homepage": "https://Felipe-Navas.github.io/react-spa-heroes-vite",
-  "private": true,
   "version": "1.0.0",
+  "description": "A React Spa App with vite",
+  "main": "/src/main.jsx",
+  "author": "Felipe Navas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipe-Navas/react-spa-heroes-vite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Felipe-Navas/react-spa-heroes-vite/issues"
+  },
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "preview": "vite preview",
     "test": "jest --watchAll"
   },
